@@ -18,14 +18,14 @@
   
   <style scoped>
   header {
-    background-color: #333;
+    background-color: #115f46;
     padding: 10px;
   }
   
   nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   nav ul li a {
