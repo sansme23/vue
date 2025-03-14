@@ -1,36 +1,24 @@
 <template>
-  <div id="app">
-    <!-- HeaderNav-komponenten er nu tilføjet -->
-    <HeaderNav />
-    
-    <!-- Dette er stedet, hvor undersiderne vil blive rendere -->
-    <router-view />
-    
-    <!-- Footer-komponenten -->
-    <Footer />
-  </div>
+  <footer>
+    <p>&copy; 2025 Min Vue App. Alle rettigheder forbeholdes.</p>
+  </footer>
 </template>
 
 <script>
-// Importer HeaderNav og Footer-komponenterne
-import HeaderNav from './components/HeaderNav.vue'
-import Footer from './components/Footer.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HeaderNav,  // Importer HeaderNav-komponenten
-    Footer      // Importer Footer-komponenten
-  }
+  name: 'Footer'
 }
 </script>
 
-<style>
-/* Global styles */
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style scoped>
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
+
