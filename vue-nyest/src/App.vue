@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Min første Vue applikation!</h1>
+    <h1>Min første Vue applikation</h1>
   </div>
 </template>
 
