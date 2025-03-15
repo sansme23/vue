@@ -15,9 +15,9 @@ Vite
 git clone https://github.com/sansme23/vue.git
 cd vue
 
-####Installer afhængigheder
+Installer afhængigheder
 npm install
 
-####Start udviklingsserver
+Start udviklingsserver
 npm run serve
 
